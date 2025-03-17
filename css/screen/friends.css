@@ -1,0 +1,38 @@
+#friends-dispaly-link {
+  display: block;
+  text-align: center;
+  background-color: var(--gray-100);
+  padding: 14px 0;
+  color: var(--gray-600);
+  margin-bottom: 16px;
+}
+
+#friends-dispaly-link i {
+  color: var(--gray-300);
+  margin: 0 8px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--red-500);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 120px;
+  color: var(--orange-500);
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 0.5s;
+}

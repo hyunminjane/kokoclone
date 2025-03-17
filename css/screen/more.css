@@ -1,0 +1,44 @@
+.more-suggestions {
+  margin-top: 40px;
+  border-top: var(--divider-normal);
+  padding: 20px;
+}
+
+.more-suggestions__title {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--gray-500);
+}
+.more-suggestions__icons-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  padding: 8px;
+}
+
+.icon-img {
+  border-radius: 12px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center; /* 가로 가운데 */
+  align-items: center; /* 세로 가운데 - 이게 빠졌음! */
+  background-color: var(--red-500);
+}
+
+.more-suggestions__icon i {
+  font-size: 32px;
+  color: white;
+}
+
+.more-suggestions__icon span {
+  font-size: 12px;
+  color: var(--gray-300);
+  margin-top: 12px;
+}

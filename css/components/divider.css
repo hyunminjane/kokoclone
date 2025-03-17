@@ -1,0 +1,6 @@
+.divider {
+  height: 1px;
+  background-color: var(--gray-200);
+  margin: 0 calc(var(--horizontal-space) * -1); /* 부모 패딩 무시하고 양 끝 */
+  width: auto;
+}

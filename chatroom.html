@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Chatroom - KokoaTalk</title>
+  </head>
+  <body id="chatroom-screen">
+    <div id="status-bar" class="chatroom">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:35</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header chatroom">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fa-solid fa-chevron-left fa-xl"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Chatroom</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+        <span><i class="fa-solid fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chatroom__timestamp">Tuseday, march, 7th, 2025</div>
+
+      <div class="message-row">
+        <img
+          src="https://i.namu.wiki/i/d1A_wD4kuLHmOOFqJdVlOXVt1TWA9NfNt_HA0CS0Y_N0zayUAX8olMuv7odG2FiDLDQZIRBqbPQwBSArXfEJlQ.webp"
+        />
+        <div class="message-row__contents">
+          <span class="message-author">koko</span>
+          <div class="message-info">
+            <span class="message-bubble">Hi</span>
+            <span class="message-time">21:22</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__own">
+        <div class="message-row__contents">
+          <div class="message-info">
+            <span class="message-bubble">What's Up</span>
+            <span class="message-time">21:22</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="refly">
+      <div class="refly__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="refly__column">
+        <input type="text" placeholder="Write a Message" />
+        <i class="fa-regular fa-face-smile fa-xl"></i>
+        <button><i class="fa-solid fa-arrow-up fa-xl"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <div><i class="fa-regular fa-face-sad-tear"></i></div>
+      <span>Your screen is too big</span>
+    </div>
+    <!--font awsome script-->
+    <script
+      src="https://kit.fontawesome.com/47603626ba.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
